@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+uL{
+    list-style: none;
+}
+
+body , html{
+    overflow-x: hidden;
+}
+
+.navbar{
+    display: flex;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+
+}
+.nav-links li{
+    margin: 0 30px;
+}
+.nav-links li a:hover{
+    color: #fc036b;
+    cursor: pointer;
+}
+.nav-links li a{
+    color: whitesmoke;
+    
+}
+header{
+    width: 100vw;
+    height: 100vh;
+   
+    background-image: url('images/nnn_n.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+.header-content{
+    margin-bottom: 150px;
+    color: aliceblue;
+    text-align: center;
+
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line {
+    width: 250px;
+    height: 4px;
+    background: crimson;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 10px 20px;
+    background-color: #fc036b;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.ctn:hover{
+background-color: blue;    
+}
+section{
+    width: 80%;
+    margin: 50px auto;
+}
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: #49497e;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row .col img{
+    width: 500px;
+    height: 300px;
+}
+.events .row{
+    margin-top: 50px;
+}
+
+h4{
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px auto;
+}
+p{
+    color: #7c7c7c;
+    padding: 0px 40px;
+    font-size: 3vmin;
+}
+.events .ctn{
+    margin-top: 30px;
+    font-size: 2vmin;
+}
+.expolre {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/ndub-group-ezgif.com-webp-to-jpg-converter.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+.expolre-content{
+    margin-bottom: 220px;
+    color: #49497e;
+    text-align: center;
+    
+
+}
+.expolre-content h2{
+    font-size: 7vmin;
+}
+.line {
+    width: 250px;
+    height: 4px;
+    background: crimson;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.expolre-content p{
+    width: 900px;
+    font-size: 4vmin;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: white;
+}
+.content-col{
+    width: 40%;
+}
+.image-col{
+    width: 60%;
+}
+.more-events .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    
+}
+.image-gallery img{
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+    
+}
+.content-col h1{
+    font-size: 7vmin;
+    color: #484872;
+    margin-left: -179px;
+}
+.line-1{
+    width: 250px;
+    height: 4px;
+    background: crimson;
+    margin-left: -200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+}
+.content-col p{
+    padding: 0;
+    margin: 30px auto;
+    font-size: 3vmin;
+}
+.content-col .ctn{
+    margin-left: -100px;
+}
+footer{
+    
+    min-height: 50px;
+    padding: 5px 50px;
+    margin: 0;
+    background-color: black;
+    text-align: center;
+}
+
+footer p{
+    color: whitesmoke;
+    margin: 20px auto;
+    padding: 20px auto;
+}

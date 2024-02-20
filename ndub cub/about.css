@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+uL{
+    list-style: none;
+}
+
+body , html{
+    overflow-x: hidden;
+}
+
+.navbar{
+    display: flex;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+
+}
+.nav-links li{
+    margin: 0 30px;
+}
+.nav-links li a:hover{
+    color: #fc036b;
+    cursor: pointer;
+}
+.nav-links li a{
+    color: whitesmoke;
+    
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+   
+    background-image: url('images/ndub-group-ezgif.com-webp-to-jpg-converter.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+.header-content{
+    margin-bottom: 150px;
+    color: aliceblue;
+    text-align: center;
+
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line {
+    width: 250px;
+    height: 4px;
+    background: crimson;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 10px 20px;
+    background-color: #fc036b;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.ctn:hover{
+background-color: blue;    
+}
+section{
+    width: 80%;
+    margin: 50px auto;
+}
+.expolre {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+.expolre-content{
+    margin-bottom: 220px;
+    color: #49497e;
+    text-align: center;
+    
+
+}
+.expolre-content h2{
+    font-size: 7vmin;
+}
+.line {
+    width: 250px;
+    height: 4px;
+    background: crimson;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.expolre-content p{
+    width: 900px;
+    font-size: 4vmin;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #49497e;
+}
+footer{
+    
+    min-height: 50px;
+    padding: 5px 50px;
+    margin: 0;
+    background-color: black;
+    text-align: center;
+}
+
+footer p{
+    color: whitesmoke;
+    margin: 20px auto;
+    padding: 20px auto;
+}
